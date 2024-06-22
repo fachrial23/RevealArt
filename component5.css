@@ -1,0 +1,134 @@
+.component5-container {
+  height: 861px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #f6f4f3;
+}
+.component5-navlink {
+  display: contents;
+}
+.component5-icon {
+  top: 69px;
+  left: 106px;
+  width: 65px;
+  height: 69px;
+  position: absolute;
+  text-decoration: none;
+}
+.component5-max-width {
+  align-self: center;
+}
+.component5-content {
+  width: 100%;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: center;
+}
+.component5-content1 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.component5-content2 {
+  width: 100%;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.component5-container1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  height: 509px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.component5-image {
+  width: 425px;
+  height: 266px;
+  align-self: flex-start;
+  object-fit: cover;
+}
+.component5-text01 {
+  top: 325px;
+  left: 457px;
+  width: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.component5-text02 {
+  top: 82px;
+  left: 459px;
+  width: 800px;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.component5-text03 {
+  top: 308px;
+  left: 21px;
+  width: 374px;
+  position: absolute;
+  text-align: center;
+}
+.component5-text11 {
+  top: 22px;
+  left: 461px;
+  position: absolute;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+}
+.component5-text12 {
+  top: 271px;
+  left: 458px;
+  position: absolute;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+}
+.component5-container2 {
+  left: 716px;
+  width: auto;
+  bottom: 74px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  justify-content: center;
+}
+.component5-navlink1 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+}
+.component5-icon2 {
+  width: 24px;
+  height: 24px;
+}
+@media(max-width: 991px) {
+  .component5-content2 {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media(max-width: 767px) {
+  .component5-content {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .component5-image {
+    width: 100%;
+  }
+}

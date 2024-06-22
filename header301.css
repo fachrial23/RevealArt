@@ -1,0 +1,44 @@
+.header301-header30 {
+  gap: var(--dl-space-space-twounits);
+  width: 1792px;
+  position: relative;
+}
+.header301-slider {
+  width: 1625px;
+  height: 300px;
+  display: inline-block;
+}
+.header301-slider-slide {
+  display: flex;
+  border-radius: var(--dl-radius-radius-buttonradius);
+  background-size: cover;
+  background-image: url("public/New Folder/wuthering-waves-art-e1716788453571-1700w.jpg");
+}
+.header301-slider-slide1 {
+  display: flex;
+  border-radius: var(--dl-radius-radius-buttonradius);
+  background-size: cover;
+  background-image: url("public/New Folder/unsplash-image-1700w.jpg");
+}
+.header301-slider-slide2 {
+  display: flex;
+  border-radius: var(--dl-radius-radius-buttonradius);
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1567863053904-2894d131aa26?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE2NXx8YXJ0fGVufDB8fHx8MTcxNzE3NDc1Nnww&ixlib=rb-4.0.3&w=1700");
+}
+.header301-slider-pagination {
+  display: block;
+}
+.header301-container {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #f6f3f4;
+}
